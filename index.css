@@ -26,8 +26,6 @@ h1#title {
 
 img#photo01 {
   display: none;
-  /*position: fixed;
-  left: 23%;*/
   margin-bottom: 100px;
   padding:1px;
   border: 2px solid #8FE8F2;
