@@ -3,6 +3,10 @@ $(document).ready(function(){
     $('#intro').css({'color': '#8FE8F2'}, 4000);
     // $('#intro').animate({'color': '#8FE8F2'}, 'slow');
   });
+  
+  $('#intro-jp').on('mouseover', function() {
+    $('#intro-jp').css({'color': '#8FE8F2'}, 4000);
+  });
 
   $('#footer-border').on('mouseenter', 'p', function () {
     $(this).animate({'font-size': '25px',
