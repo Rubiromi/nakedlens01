@@ -4,13 +4,20 @@ $(document).ready(function(){
     // $('#intro').animate({'color': '#8FE8F2'}, 'slow');
   });
 
-  $('#footer-border').on('mouseover', 'p', function () {
-    $(this).animate({'color': '#8FE8F2', 'font-size': '25px', 'margin': '-35px', 'left': '25%'}, 600);
+  $('#footer-border').on('mouseenter', 'p', function () {
+    $(this).animate({'font-size': '25px',
+                     'margin': '-35px',
+                     'left': '25%'}, 600)
+           .css({'color': '#8FE8F2'});
   });
 
   $('#footer-border').on('mouseleave', 'p', function () {
-    $(this).css({'position': 'fixed', 'left': '34%', 'color': 'white',
-    'font-weight': 300, 'font-size': '15px'});
+    $(this).animate({'position': 'fixed',
+                     'left': '34%',
+                     'font-weight': 300,
+                     'font-size': '15px',
+                     'margin': '5px'}, 600)
+           .css({'color': 'white'});
   });
 
   $('#photo01').fadeIn(3400);
