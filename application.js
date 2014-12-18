@@ -1,10 +1,6 @@
-//= require jquery
-//= require jquery_ujs
-//= require bootstrap
-
 $(document).ready(function(){
-  $('h1').on('mouseenter', function() {
-    $('h1').css({'color': 'red'}, 300);
+  $('#intro').on('mouseenter', function() {
+    $('#intro').css({'color': '#8FE8F2'}, "slow");
   });
-  $('#photo01').fadeIn(3000);
+  $('#photo01').fadeIn(3700);
 });

@@ -25,7 +25,7 @@ h1#title {
 }
 
 img#photo01 {
-  /*display: none;*/
+  display: none;
   /*position: fixed;
   left: 23%;*/
   margin-bottom: 100px;
