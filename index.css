@@ -11,6 +11,10 @@ body {
   margin: 10px;
 }
 
+.row {
+  padding-top: 30px;
+}
+
 h1#title {
   color: #D9D9D9;
 }
@@ -34,7 +38,7 @@ img#photo01 {
 
 #footer-border {
   border-top: 1px solid #8FE8F2;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 #footer-border p {
