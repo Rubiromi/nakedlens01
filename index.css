@@ -87,3 +87,7 @@ a:active {
     color: #F5FCA7;
     text-decoration: none;
 }
+
+.jumbotron {
+  background-color: #333333;
+}
