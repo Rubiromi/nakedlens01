@@ -19,8 +19,7 @@ $(document).ready(function(){
   $('#contact').on('click', function () {
     $('#footer-border').animate({
                      'font-size': '25px',
-                     'position': 'fixed',
-                     'left': '-25%'}, 600)
+                     }, 600)
            .css({'color': '#8FE8F2'});
   });
 

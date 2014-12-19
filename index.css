@@ -48,8 +48,7 @@ img#photo01 {
 }
 
 #footer-border p {
-  position: fixed;
-  left: 38%;
+  text-align: center;
 }
 
 footer {
