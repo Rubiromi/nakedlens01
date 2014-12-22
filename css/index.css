@@ -59,6 +59,10 @@ h1#title {
   left: 30%;
 }
 
+#info {
+  font-size: 12px;
+}
+
 ul {
 list-style-type: square;
 }
