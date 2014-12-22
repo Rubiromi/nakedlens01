@@ -100,6 +100,10 @@ footer {
   bottom: 5%;
 }
 
+form input {
+  color: black;
+}
+
 .jumbotron {
   background-color: #333333;
 }
