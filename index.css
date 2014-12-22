@@ -29,6 +29,11 @@ a:active {
     text-decoration: none;
 }
 
+a#sessions {
+  color: white;
+  font-size: 26px;
+}
+
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: white;
