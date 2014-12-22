@@ -33,5 +33,9 @@ $(document).ready(function(){
            .css({'color': 'white'});
   });
 
-  $('#photo01').fadeIn(3400);
+  $('#photo01').fadeIn(1800);
+  $('#photo01').on('mouseover', function() {
+    $(this).fadeOut(1800);
+    $('#photo02').fadeIn(1800);
+  });
 });
