@@ -54,6 +54,10 @@ h1#title {
   left: 30%;
 }
 
+ul {
+list-style-type: square;
+}
+
 #logo2014 {
   margin-left: 10px;
 }
