@@ -22,7 +22,8 @@ $(document).ready(function(){
                      'font-size': '25px',
                      }, 600)
            .css({'color': '#8FE8F2'});
-    alert("Call me or text me at 801.930.0046");
+    // alert("Call me or text me at 801.930.0046");
+    $('#overlay').fadeIn(1800);
   });
 
   $('#contact').on('mouseleave', function () {
@@ -37,6 +38,6 @@ $(document).ready(function(){
   $('#photo01').fadeIn(1800);
   $('#photo01').on('mouseover', function() {
     $(this).fadeOut(1800);
-    $('#photo02').fadeIn(1800);
+    $('#photo02').delay(1800).fadeIn(1800);
   });
 });
